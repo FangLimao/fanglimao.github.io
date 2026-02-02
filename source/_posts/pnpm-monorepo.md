@@ -1,17 +1,17 @@
 ---
-title: Pnpm与Monorepo
+title: Pnpm 与 Monorepo
 date: 2025/2/17
-description: 如何使用Pnpm创建Monorepo
+description: 如何使用 Pnpm 创建 Monorepo
 category: [技术]
 references:
   - '[过滤 | Pnpm](https://pnpm.io/zh/filtering)'
   - '[pnpm-workspace.yaml | Pnpm ](https://pnpm.io/zh/pnpm-workspace_yaml)'
   - '[工作空间 | Pnpm](https://pnpm.io/zh/workspaces)'
 ---
-## 什么是Monorepo与工作空间
-**Monorepo**是一种将多个项目放在一个仓库中的开发模式，通常用于大型项目或团队协作，其可以方便地管理多个项目的依赖关系，提高开发效率，同时也可以方便地共享代码和资源。
+## 什么是 Monorepo 与工作空间
+**Monorepo** 是一种将多个项目放在一个仓库中的开发模式，通常用于大型项目或团队协作，其可以方便地管理多个项目的依赖关系，提高开发效率，同时也可以方便地共享代码和资源。
 
-至于将多个项目放在多个不同的仓库中的开发方式，则称之为**MultiRepo**。
+至于将多个项目放在多个不同的仓库中的开发方式，则称之为 **MultiRepo**。
 
 **工作空间（Workspace）** 是Pnpm中的一种内置功能，一个工作空间就可以将多个项目合并到一个仓库中。
 
@@ -165,7 +165,7 @@ pnpm publish -r
 ```
 
 ## 总结
-Pnpm与Monorepo的结合使用，可以方便地管理多个项目的依赖关系，提高开发效率，同时也可以方便地共享代码和资源。
+Pnpm 与 Monorepo 的结合使用，可以方便地管理多个项目的依赖关系，提高开发效率，同时也可以方便地共享代码和资源。
 
 以下是一些常用的命令：
 

@@ -1,0 +1,69 @@
+inject:
+  head:
+    - <link href="https://fontsapi.zeoseven.com/285/main/result.css" rel="stylesheet">
+  script:
+
+style:
+  font-family:
+    body: '"Noto Serif CJK"'
+
+logo:
+  avatar: "[{config.avatar}](/about/)"
+  title: "[{config.title}](/)"
+  subtitle: "鸽子的歇息地 | 衣带渐宽终不悔 为伊消得人憔悴"
+
+# 侧边栏主功能导航菜单
+menubar:
+  columns: 4 
+  items:
+     - id: post # 页面中高亮的 menu_id
+       theme: '#1BCDFC' # 高亮时的颜色，仅 svg 中 fill="currentColor" 时有效
+       icon: solar:documents-bold-duotone # 支持 svg/img 标签，可以定义在 icons.yml 文件中，也支持外部图片的 URL
+       title: 博客 # 标题
+       url: / # 跳转链接，支持相对路径和绝对路径
+     - id: wiki
+       theme: '#3DC550'
+       icon: solar:notebook-bookmark-bold-duotone
+       title: 文档
+       url: /categories/
+     - id: explore
+       theme: '#FA6400'
+       icon: solar:planet-bold-duotone
+       title: 专栏
+       url: /topic/
+     - id: about
+       theme: '#F44336'
+       icon: solar:chat-square-like-bold-duotone
+       title: 关于
+       url: /about/
+
+article:
+  share: [wechat, qq, weibo, email, link]
+
+footer:
+  sitemap:
+     - title: 博客
+       items:
+         - '[近期发布](/)'
+         - '[分类](/categories/)'
+         - '[标签](/tags/)'
+         - '[归档](/archives/)'
+     - title: 项目
+       items:
+         - '[隐藏之年](https://codeberg.org/TeamOccultus/HiddenYears2)'
+         - '[Occultus SDK](https://codeberg.org/TeamOccultus/StarTenonAPI)'
+    # - title: 社交
+    #   items:
+    #     - '[xxx](/)'
+    #     - '[xxx](/)'
+    #     - '[xxx](/)'
+    #     - '[xxx](/)'
+    # - title: 关于
+    #   items:
+    #     - '[xxx](/)'
+    #     - '[xxx](/)'
+    #     - '[xxx](/)'
+    #     - '[xxx](/)'
+  content: | # 支持 Markdown 格式
+    本站由 [{author.name}](/) 使用 [{theme.name} {theme.version}]({theme.tree}) 主题创建。
+    本博客所有文章除特别声明外，均采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 许可协议，转载请注明出处。
