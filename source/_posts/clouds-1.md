@@ -2,8 +2,10 @@
 title: 云之巅·一
 date: 2023/9/30
 description: 在手机中偶然翻出的旧照
-category: [浮光掠影]
-cover: https://s21.ax1x.com/2024/08/09/pASVa01.jpg
+categories:
+- [gallery]
+tags: [浮光掠影]
+featured_image: https://s21.ax1x.com/2024/08/09/pASVa01.jpg
 topic : photos
 poster: # 海报（可选，全图封面卡片）
   headline: 云之巅·一

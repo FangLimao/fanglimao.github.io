@@ -2,7 +2,7 @@
 title: Pnpm 与 Monorepo
 date: 2025/2/17
 description: 如何使用 Pnpm 创建 Monorepo
-category: [技术]
+tags: [技术]
 references:
   - '[过滤 | Pnpm](https://pnpm.io/zh/filtering)'
   - '[pnpm-workspace.yaml | Pnpm ](https://pnpm.io/zh/pnpm-workspace_yaml)'
