@@ -3,7 +3,7 @@
 language: zh-CN
 
 # header
-site_brand_name: 猫的小窝
+site_brand_name: 杂货铺
 
 logo_image:
   enable: false
@@ -29,7 +29,7 @@ date_format: MMM D, YYYY
 
 # profile
 profile:
-  title: 猫的小窝
+  title: 杂货铺
   body: "「请别哭泣，爱与热忱会生长如昔」"
   image: https://s41.ax1x.com/2026/04/26/pehYviF.jpg 
 
