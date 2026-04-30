@@ -76,10 +76,14 @@ disqus: # disqus setup guide: https://help.disqus.com/en/articles/1717056-publis
 local_search:
   enable: true
   place_holder: 随便搜搜吧
+  header_name: 搜索
   trigger: auto # auto: trigger search whenever input changes
   top_n_per_article: 1 # show top n results per article, show all results by setting to -1
   unescape: false # unescape html strings to the readable one
   preload: false # reload the search data when the page loads, this will accelerate the search process
+
+text:
+  theme: 主题
 
 style:
   font-family:
