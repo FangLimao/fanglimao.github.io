@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 猫的小窝
+title: 杂货铺
 subtitle: ""
 description: ""
 keywords:
@@ -97,7 +97,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: frame
+theme: shiro
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment

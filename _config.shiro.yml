@@ -1,0 +1,133 @@
+# 站点
+site:
+  favicon: /favicon.svg
+  # 站点创建年份；在页脚显示为"起始年–当前年"（省略则仅显示当前年份）
+  # since: 2020
+  # 是否在页头显示印章
+  seal: false
+  # 印章和 favicon 中显示的文字（建议使用单个字符）
+  seal_text: "白"
+  rss:
+    enabled: true
+    path: /atom.xml
+
+# 导航菜单
+# "name" 字段接受任意文本 — 使用你偏好的语言。
+# 示例："Home"（英语）、"首页"（中文）、"ホーム"（日语）
+menu:
+  - name: 首页
+    url: /
+  - name: 归档
+    url: /archives
+  - name: 分类
+    url: /categories
+  - name: 标签
+    url: /tags
+#  - name: 关于
+#    url: /about
+#  - name: GitHub
+#    url: https://github.com/Acris/hexo-theme-shiro
+#    # 在新标签页打开
+#    target: _blank
+
+# 摘要设置
+# 优先级：<!-- more --> 标签 > 自动截断（当 fallback.enabled 为 true 时）> 全文显示。
+excerpt:
+  # 如果文章有 <!-- more --> 标签，则使用它。
+  # 否则回退到自动截断摘要。
+  fallback:
+    enabled: true
+    # 截断的字符数（非单词数）
+    length: 200
+
+# 目录（TOC）
+toc:
+  enabled: true
+  # 最大标题深度：2 = h2，3 = h2+h3，4 = h2+h3+h4
+  depth: 3
+  # 显示目录的最少标题数
+  min_headings: 3
+
+# 暗色模式
+# 默认主题：system（跟随系统）、light 或 dark
+# 当默认为 "system" 时，切换按钮在三个状态间循环：系统 → 亮色 → 暗色。
+# 当默认为 "light" 或 "dark" 时，切换按钮仅在亮色 ↔ 暗色之间切换（无系统选项）。
+# 当 toggle 为 false 时，主题切换按钮隐藏，始终使用默认主题。
+# 如果禁用切换，建议将默认值设为 "light" 以匹配主题设计。
+dark_mode:
+  default: system
+  toggle: true
+
+# 阅读进度条（页面顶部的朱红色细条）
+progress_bar:
+  enabled: true
+
+# 回到顶部按钮
+back_to_top:
+  enabled: true
+
+# 评论系统
+# 支持的评论服务：disqus、giscus
+# 将 enabled 设为 true 并选择一个评论服务。
+#
+# Disqus：在 https://disqus.com/admin/create/ 注册，
+# 并记下分配给你站点的唯一 shortname（例如 "my-blog-name"）。
+#
+# giscus：基于 GitHub Discussions 的评论系统。
+# 前往 https://giscus.app/ 生成你的配置值。
+# 确保你的仓库是公开的并且已启用 Discussions。
+comments:
+  enabled: false
+  # disqus 或 giscus
+  provider: giscus
+  disqus:
+    shortname: ""
+  giscus:
+    # giscus 脚本 URL（自托管或默认）
+    src: https://giscus.app/client.js
+    # GitHub 仓库（例如 "owner/repo"）
+    repo: ""
+    # 仓库 ID，从 https://giscus.app 获取
+    repo_id: ""
+    # Discussion 分类名称（例如 "Announcements"）
+    category: ""
+    # 分类 ID，从 https://giscus.app 获取
+    category_id: ""
+    # pathname、url、title、og:title、specific、number
+    mapping: pathname
+    # 1 启用严格标题匹配
+    strict: 0
+    # 1 启用表情回应
+    reactions_enabled: 1
+    # 1 发送讨论元数据
+    emit_metadata: 0
+    # bottom 或 top
+    input_position: bottom
+    # 语言代码（例如 en、zh-CN、ja）
+    lang: en
+    # giscus 主题 CSS URL 或内置主题名（例如 light、dark、preferred_color_scheme）
+    # 默认使用通过 jsDelivr CDN 分发的 Shiro 自定义主题。
+    theme: https://cdn.jsdelivr.net/npm/hexo-theme-shiro@1.4.3/source/css/giscus.min.css
+    # true 启用懒加载（添加 data-loading="lazy"）
+    lazy_loading: false
+
+# 统计分析
+# 目前支持 Google Analytics 4（GA4）。
+# 要获取 GA4 Measurement ID，请前往 https://analytics.google.com/，
+# 创建一个媒体资源，然后在"管理 > 数据流 > 网站 > 衡量 ID"中找到 ID（格式：G-XXXXXXXXXX）。
+analytics:
+  google:
+    enabled: false
+    # 例如 "G-XXXXXXXXXX"
+    id: ""
+
+# 站内搜索，由 Pagefind 提供（https://pagefind.app/）
+# 索引会在 `hexo generate` 之后自动构建并写入 `public/pagefind/`。
+# npm 安装的主题会自动从 node_modules 解析二进制；以 git clone 方式安装时，
+# 请在站点根目录执行 `npm install pagefind --save-dev`，或依赖 `npx --yes pagefind`
+# 兜底（首次运行需联网）。
+search:
+  enabled: true
+  # 强制指定分词语言（默认从 <html lang> 自动检测）。
+  # 仅当 Pagefind 无法正确识别站点语言时才需要覆盖。
+  # force_language: zh
