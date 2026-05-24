@@ -77,7 +77,7 @@ back_to_top:
 # 前往 https://giscus.app/ 生成你的配置值。
 # 确保你的仓库是公开的并且已启用 Discussions。
 comments:
-  enabled: false
+  enabled: true
   # disqus 或 giscus
   provider: giscus
   disqus:
@@ -86,13 +86,13 @@ comments:
     # giscus 脚本 URL（自托管或默认）
     src: https://giscus.app/client.js
     # GitHub 仓库（例如 "owner/repo"）
-    repo: ""
+    repo: "FangLimao/fanglimao.github.io"
     # 仓库 ID，从 https://giscus.app 获取
-    repo_id: ""
+    repo_id: "R_kgDON6VXbg"
     # Discussion 分类名称（例如 "Announcements"）
-    category: ""
+    category: "Announcements"
     # 分类 ID，从 https://giscus.app 获取
-    category_id: ""
+    category_id: "DIC_kwDON6VXbs4C9tPb"
     # pathname、url、title、og:title、specific、number
     mapping: pathname
     # 1 启用严格标题匹配
@@ -104,7 +104,7 @@ comments:
     # bottom 或 top
     input_position: bottom
     # 语言代码（例如 en、zh-CN、ja）
-    lang: en
+    lang: zh-CN
     # giscus 主题 CSS URL 或内置主题名（例如 light、dark、preferred_color_scheme）
     # 默认使用通过 jsDelivr CDN 分发的 Shiro 自定义主题。
     theme: https://cdn.jsdelivr.net/npm/hexo-theme-shiro@1.4.3/source/css/giscus.min.css

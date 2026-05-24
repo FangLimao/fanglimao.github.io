@@ -3,7 +3,7 @@ title: 白雪下的村庄
 date: 2025/1/27
 description: 在手机中偶然翻出的旧照
 categories:
-- [gallery]
+- [浮光掠影]
 tags: [浮光掠影]
 featured_image: https://s21.ax1x.com/2025/02/16/pEKhR3R.jpg
 topic : photos
