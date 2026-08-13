@@ -5,11 +5,8 @@ description: 在手机中偶然翻出的旧照
 categories:
 - [浮光掠影]
 tags: [浮光掠影]
-featured_image: https://s21.ax1x.com/2024/08/09/pASVa01.jpg
-topic : photos
-poster: # 海报（可选，全图封面卡片）
-  headline: 云之巅·一
-  caption: 在手机中偶然翻出的旧照
+cover: https://s21.ax1x.com/2024/08/09/pASVa01.jpg
+thumbnail: https://s21.ax1x.com/2024/08/09/pASVa01.jpg
 ---
 闲来无事喜欢拍云。
 

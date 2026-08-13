@@ -5,11 +5,7 @@ description: 在手机中偶然翻出的旧照
 categories:
 - [浮光掠影]
 tags: [浮光掠影]
-featured_image: https://s21.ax1x.com/2025/02/16/pEKhR3R.jpg
-topic : photos
-poster: # 海报（可选，全图封面卡片）
-  headline: 白雪下的村庄
-  caption: 忽如一夜春风来，千树万树梨花开
+cover: https://s21.ax1x.com/2025/02/16/pEKhR3R.jpg
 ---
 今年鲜少下雪，大家都以为这是一个无雪的冬天，直到春节前夕一场暴雪的袭来……
 

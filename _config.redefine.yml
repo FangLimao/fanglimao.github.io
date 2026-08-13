@@ -1,0 +1,63 @@
+info:
+    title: Grocery Store
+    subtitle: Just a blog for me
+    author: 方琉璃
+    url: https://fanglimao.github.io
+
+defaults:
+    favicon: /images/logo.png
+    avatar: /images/flm.jpg
+
+home_banner:
+    title: "Grocery Store"
+    social_links:
+        enable: true
+        links:
+            - icon: github
+              url: https://github.com/FangLimao
+            - icon: email
+              url: FangLiulii@outlook.com
+    subtitle:
+        text: ["Loading..."]
+        hitokoto: 
+            enable: true
+            api: https://v1.hitokoto.cn/?c=d&c=i
+
+search:
+    enable: true
+
+articles:
+    word_count:
+        enable: true
+    copyright:
+        default: cc_by_sa
+
+comment:
+    enable: true
+    system: giscus
+    giscus:
+      repo: "FangLimao/fanglimao.github.io" # Github repository name
+      repo_id: R_kgDON6VXbg # Github repository id
+      category: Announcements # Github discussion category
+      category_id: DIC_kwDON6VXbs4C9tPb # Github discussion category id
+      mapping: pathname
+      strict: 0
+      reactions_enabled: 1
+      emit_metadata: 0
+      lang: zh-CN
+      input_position: bottom
+      loading: not-lazy
+
+navbar:
+    links:
+        Home:
+            path: /
+        Tags: #取名随意
+            icon: fa-solid fa-tags #图标
+            path: /tags/ #链接            
+        Friends: #取名随意
+            icon: fa-solid fa-link #图标
+            path: /links/
+
+footer:
+    customize: "「请别哭泣，爱与热忱会生长如昔」"

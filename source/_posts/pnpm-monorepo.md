@@ -8,7 +8,7 @@ references:
   - '[pnpm-workspace.yaml | Pnpm ](https://pnpm.io/zh/pnpm-workspace_yaml)'
   - '[工作空间 | Pnpm](https://pnpm.io/zh/workspaces)'
 ---
-## 什么是 Monorepo 与工作空间
+
 **Monorepo** 是一种将多个项目放在一个仓库中的开发模式，通常用于大型项目或团队协作，其可以方便地管理多个项目的依赖关系，提高开发效率，同时也可以方便地共享代码和资源。
 
 <!-- more -->

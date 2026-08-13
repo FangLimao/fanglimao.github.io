@@ -1,0 +1,7 @@
+- links_category: 开发组与工作室
+  has_thumbnail: false
+  list:
+      - name: 星屹工作室
+        link: https://www.ctnstudio.top
+        description: 群「星」闪耀，始终如「屹」
+        avatar: https://codeberg.org/CTNStudio.png
